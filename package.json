@@ -2,12 +2,12 @@
   "name": "landing",
   "version": "1.0.0",
   "description": "",
-  "default": "landing.html",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel index.html --dist-dir ./dist"
   },
-  "author": "hassan",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.37.0",
